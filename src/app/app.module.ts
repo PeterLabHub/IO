@@ -14,7 +14,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 //NgZorroAntdMobile
 import { NgZorroAntdMobileModule} from 'ng-zorro-antd-mobile';
-
+// import module
+import { ElModule } from 'element-angular'
 
 @NgModule({
   declarations: [AppComponent],
@@ -22,7 +23,7 @@ import { NgZorroAntdMobileModule} from 'ng-zorro-antd-mobile';
   imports: [BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule, HttpClientModule,
-    NgZorroAntdMobileModule],
+    NgZorroAntdMobileModule,ElModule],
   providers: [
     StatusBar,
     SplashScreen,
