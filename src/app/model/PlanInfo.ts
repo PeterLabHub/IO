@@ -1,0 +1,20 @@
+export class PlanInfo{
+    userTrainId:number;
+    planState:number;
+    trainState:number;
+    totalTime:number;
+    studyType:number;
+    startTime:string;
+    planName:string;
+    paymentType:string;
+    passScore:string;
+    orgName:string;
+    orderNo:string;
+    isCurrentMonth:number;
+    isCentralize:number;
+    hours:number;
+    finishedTime:number;
+    finalExamTime:string;
+    fee:number;
+    endTime:string;
+}
